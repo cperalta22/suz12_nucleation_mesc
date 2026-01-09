@@ -4,7 +4,7 @@ Itzel Alejandra Hernández-Romero, Carlos Alberto Peralta-Alvarez, Abraham Romá
 
 ## Introduction
 
-This repository contains code used to analyze data presented as results on our preprint available on bioRxiv. Haz click [aqui] (https://www.biorxiv.org/content/10.1101/2025.09.02.673664v1)
+This repository contains code used to analyze data presented as results on our preprint available on bioRxiv (https://www.biorxiv.org/content/10.1101/2025.09.02.673664v1)
 
 Scripts are presented as were used. 
 
