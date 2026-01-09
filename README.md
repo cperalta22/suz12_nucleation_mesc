@@ -6,10 +6,13 @@ Itzel Alejandra Hernández-Romero, Carlos Alberto Peralta-Alvarez, Abraham Romá
 
 This repository contains code used to analyze data presented as results on our preprint available on bioRxiv (https://www.biorxiv.org/content/10.1101/2025.09.02.673664v1).
 
-Scripts are presented as were used. 
+Scripts are presented as were used for ChIP-seq, RNA-seq and HiChIP data analysis. 
 
-Please contact me if you require assitance with the code. :)
+Please contact us if you require assitance with the code. :)
 
+## Content 
+
+Code is organized on thematic directories by experimental approach.
 
 - primer elemento
 - segundo elemento
