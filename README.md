@@ -25,4 +25,4 @@ Code is organized on thematic directories by experimental approach.
 
 Our raw sequencing dataset can be found at GEO database with accession numbers: ChIP-seq GSE305054 and RNA-seq GSE305055.
 
-Other publicly available data used for analysis were found at GEO database with accession numbers: thymocytes GSM1498452, intestinal epithelium GSM3020554, neural progenitors GSM878558, H3K4me3 GSM6261533, H3K9ac GSM8107956, H3K27ac GSE280487, Mtf2 GSM6585902, Jarid2 GSM6585904, R-loops GSM1720620, HiChIP-seq GSE150907,and DNA methylation GSE266926.
+Other publicly available data used for analysis were found at GEO database with accession numbers: thymocytes GSM1498452, intestinal epithelium GSM3020554, neural progenitors GSM878558, H3K4me3 GSM6261533, H3K9ac GSM8107956, H3K27ac GSE280487, Mtf2 GSM6585902, Jarid2 GSM6585904, R-loops GSM1720620, HiChIP-seq GSE150907, and DNA methylation GSE266926.
