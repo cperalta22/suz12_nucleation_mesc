@@ -22,6 +22,7 @@ De novo recruitment of Suz12 in mouse embryonic stem cells: Insights into Polyco
 *texto en cursivas*
 **texto en negritas**
 
-Haz click [aqui](http://es.universobobesponja.wikia.com/wiki/Archivo:Calamardo_Tent%C3%A1culos_de_Bob_Esponja.png)
+Haz click [aqui]
+
 
 <img width="516" height="383" alt="image" src="https://github.com/user-attachments/assets/660a0d10-06e1-4a04-b3c9-05ab87c4635b" />
