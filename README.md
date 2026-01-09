@@ -4,9 +4,6 @@ Itzel Alejandra Hernández-Romero, Carlos Alberto Peralta-Alvarez, Abraham Romá
 
 Corresponding: Victor Julian Valdes
 
-## Abstract
-Polycomb domains safeguard cell identity by maintaining lineage-specific chromatin states enriched in repressive histone modifications, preserving the epigenetic memory of cell lineages. While Polycomb Repressive Complex 2 (PRC2) can re-establish its occupancy after perturbation, the mechanisms that guide de novo Polycomb recruitment remain unclear. To address this, we engineered an auxin-inducible degradation system to reversibly deplete and reintroduce the endogenous PRC2 core subunit Suz12 in mouse embryonic stem cells (mESCs). Genome-wide profiling at an early recovery time point revealed ~1,100 PRC2 nucleation sites, characterized by rapid Suz12 and histone H3K27me3 re-accumulation with strong signal, with minimal impact on gene expression. These sites were significantly enriched at bivalent promoters, coinciding with unmethylated CpG islands and chromatin states associated with developmental regulation, and were largely conserved in differentiated cells. Motif analysis identified G/C-rich DNA sequences associated with E2F and zinc-finger proteins, alongside strong co-occupancy with MTF2 and JARID2, two PRC2 cofactors previously implicated in Polycomb targeting. Notably, a subset of nucleation sites overlapped with long-range chromatin interaction anchors in histone H3K27me3 HiChIP datasets. These findings reveal that PRC2 de novo nucleation sites are associated with a combination of chromatin states, DNA sequence features, cofactor co-occupancy and spatial genome organization, suggesting that epigenetic memory can be re-established through defined genomic and chromatin features.
-
 ## Introduction
 
 This repository contains code used to analyze data presented as results on our preprint available on bioRxiv (https://www.biorxiv.org/content/10.1101/2025.09.02.673664v1).
