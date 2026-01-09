@@ -1,6 +1,6 @@
 # Mapping early PRC2 nucleation sites upon Suz12 reintroduction reveals features of de novo Polycomb recruitment
 
-Itzel Alejandra Hernández-Romero, Carlos Alberto Peralta-Alvarez, Abraham Román-Figueroa,.., David Valle-Garcia et. al. 
+Itzel Alejandra Hernández-Romero, Carlos Alberto Peralta-Alvarez, Abraham Román-Figueroa, .., David Valle-Garcia et. al. 
 
 Corresponding: Victor Julian Valdes
 
