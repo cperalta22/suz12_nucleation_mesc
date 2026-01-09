@@ -15,7 +15,7 @@ Please contact us if you require assitance with the code. :)
 Code is organized on thematic directories by experimental approach.
 
 | Directory | Description | Script owner |
-|-----------|--:|:-:|
+|-----------|--|:-:|
 | RNA-seq |Code for Differential gene expression analysis| Carlos Peralta-Alvarez|
 | ChIP-seq |Code for ChIP-Seq data analysis | Carlos Peralta-Alvarez| 
 | HiChIP |Code for HiChIP analysis| Abraham Román-Figueroa | 
