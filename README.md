@@ -20,10 +20,10 @@ Code is organized on thematic directories by experimental approach.
 |-----------|--:|:-:|
 | RNA-seq| Code for Differential gene expression analysis| Carlos Peralta-Alvarez|
 | ChIP-seq | Code for ChIP-Seq data analysis | Carlos Peralta-Alvarez| 
-| HiChIP | Code for | Abraham Román-Figueroa | 
-| HiChIP | Code for Random distribution analysis, CpG methylation and CG percentage,  |
+| HiChIP | Code for HiChIP analysis| Abraham Román-Figueroa | 
+| CpG analysis| Code for Random distribution analysis and CpG methylation and CG percentage | David Valle-Garcia | 
 
-
+If you are looking for our raw sequencing dataset: those can be found at GEO database with accession numbers: ChIP-seq GSE305054 and RNA-seq GSE305055.
 
 
 - primer elemento
