@@ -1,8 +1,15 @@
 # Mapping early PRC2 nucleation sites upon Suz12 reintroduction reveals features of de novo Polycomb recruitment
 
-Itzel Alejandra Hernández-Romero et. al. Corresponding:Victor Julian Valdes
+Itzel Alejandra Hernández-Romero, Carlos Alberto Peralta-Alvarez, Abraham Román-Figueroa, et. al. Corresponding: Victor Julian Valdes
 
 ## Introduction
+
+This repository contains code used to analyze data presented as results on our preprint available on bioRxiv. Haz click [aqui] (https://www.biorxiv.org/content/10.1101/2025.09.02.673664v1)
+
+Scripts are presented as were used. 
+
+Please contact me if you require assitance with the code. :)
+
 
 - primer elemento
 - segundo elemento
