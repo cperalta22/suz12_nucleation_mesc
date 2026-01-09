@@ -1,6 +1,8 @@
 # Mapping early PRC2 nucleation sites upon Suz12 reintroduction reveals features of de novo Polycomb recruitment
 
-Itzel Alejandra Hernández-Romero, Carlos Alberto Peralta-Alvarez, Abraham Román-Figueroa, et. al. Corresponding: Victor Julian Valdes
+Itzel Alejandra Hernández-Romero, Carlos Alberto Peralta-Alvarez, Abraham Román-Figueroa, et. al. 
+
+Corresponding: Victor Julian Valdes
 
 ## Introduction
 
@@ -11,6 +13,12 @@ Scripts are presented as were used for ChIP-seq, RNA-seq and HiChIP data analysi
 Please contact us if you require assitance with the code. :)
 
 ## Content 
+
+| columna 1 | columna 2 | columna 3 |
+|-----------|--:|:-:|
+| alog| otra | cosa|
+| verde | rojo | amarillo | 
+
 
 Code is organized on thematic directories by experimental approach.
 
