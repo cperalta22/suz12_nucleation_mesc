@@ -1,11 +1,8 @@
-# suz12_nucleation_mesc
-De novo recruitment of Suz12 in mouse embryonic stem cells: Insights into Polycomb Nucleation sites
+# Mapping early PRC2 nucleation sites upon Suz12 reintroduction reveals features of de novo Polycomb recruitment
 
+Itzel Alejandra Hernández-Romero et. al. Corresponding:Victor Julian Valdes
 
-# Titulo
-## Subtitulo
-### tercer nivel 
-#### cuarto nivel 
+## Introduction
 
 - primer elemento
 - segundo elemento
