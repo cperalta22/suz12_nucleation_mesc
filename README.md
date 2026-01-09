@@ -16,12 +16,12 @@ Please contact us if you require assitance with the code. :)
 
 Code is organized on thematic directories by experimental approach.
 
-| Directory | Description | Conducted by |
+| Directory | Description | Script owner |
 |-----------|--:|:-:|
-| RNA-seq| otra | cosa|
-| ChIP-seq | rojo | amarillo | 
-| HiChIP | 
-| HiChIP | 
+| RNA-seq| Code for Differential gene expression analysis| Carlos Peralta-Alvarez|
+| ChIP-seq | Code for ChIP-Seq data analysis | Carlos Peralta-Alvarez| 
+| HiChIP | Code for | Abraham Román-Figueroa | 
+| HiChIP | Code for Random distribution analysis, CpG methylation and CG percentage,  |
 
 
 
