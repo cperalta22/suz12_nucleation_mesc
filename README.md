@@ -20,7 +20,7 @@ Code is organized on thematic directories by experimental approach.
 | ChIP-seq |Code for ChIP-Seq data analysis | Carlos Peralta-Alvarez| 
 | HiChIP |Code for HiChIP analysis| Abraham Román-Figueroa | 
 | CpG analysis|Code for Random distribution analysis and CpG methylation and CG percentage | David Valle-Garcia | 
-| Data visualization| Heatmaps, Venn diagrams and profiles| Itzel Hernadez-Romero |
+| Data visualization| Code for heatmaps, Venn diagrams and profiles| Itzel Hernadez-Romero |
 
 ## Raw sequencing dataset
 
