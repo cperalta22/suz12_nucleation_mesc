@@ -1,1 +1,67 @@
+# Venn diagrams
+conda activate intervene-env
+intervene venn -i *bed -o Results
+intervene upset -i *bed -o Results_upset --save-overlaps
 
+# Proportional Venn diagrams
+conda activate intervene-env
+bash makeNames.sh
+...................
+>>makeNames.sh Program code<<
+#!/bin/bash
+
+N=$1  # Cambia este valor por el número de líneas que necesites
+OUTPUT="archivo.txt"
+
+> "$OUTPUT"  # Vacía el archivo si ya existe
+
+for ((i = 0; i < N; i++)); do
+  tr -dc 'A-Za-z0-9' < /dev/urandom | head -c 15 >> "$OUTPUT"
+  echo >> "$OUTPUT"
+done
+.................
+
+bash getUniquePeakNamesByPeakFile.sh
+
+......................
+>>getUniquePeakNamesByPeakFile.sh Program code<<
+
+#cat {CHANGE} > allpeaks
+cat *csv > allpeaks
+
+# DO NOT CHANGE
+bedtools sort -i allpeaks | bedtools merge > allmergedpeaks
+numeropicos=$(wc -l allmergedpeaks | cut -f 1 -d " ")
+bash makeNames.sh $numeropicos
+paste allmergedpeaks archivo.txt > picosconnombre.bed
+nombresunicos=$(cat archivo.txt | sort | uniq | wc -l)
+echo
+echo THE NEXT NUMBERS MUST BE EQUALL
+echo número de picos totales:
+echo $numeropicos
+echo
+echo número nombres unicos:
+echo $nombresunicos
+echo
+echo IF DIFFERENT, REPEAT 
+
+# bedtools annotate -counts -i picosconnombre.bed -files {CHANGE} | grep -vE "0$" | cut -f 4 > {CHANGE}
+
+......................................
+
+  #add name lists to https://www.stefanjol.nl/venny , Oliveros, J.C. (2007) VENNY. An interactive tool for comparing lists with Venn Diagrams. http://bioinfogp.cnb.csic.es/tools/venny/index.html (github.com/benfred/venn.js)
+
+#Heatmaps
+conda activate deeptools-env
+computeMatrix reference-point -S *bigwig -R *bed -a 1500 -b 1500 --referencePoint center -p 30 --skipZeros -o Matrix
+plotHeatmap -m Matrix -o HeatMapMatrix.pdf --colorMap Spectral_r --silhouette
+
+#Profiles
+conda activate deeptools-env
+computeMatrix reference-point -S *bigwig -R *bed -a 1500 -b 1500 --referencePoint center -p 30 --skipZeros -o Matrix
+plotProfile -m Matrix --averageType median -o matrixmedian.pdf
+
+#Find Repeated annotation geneID
+conda activate bedtools-env
+bedtools groupby -i input.bed -g 4 -c 1 -o count | sort -k2,2nr
+bedtools groupby -i Annotated_Peaks.tabular -g 18 -c 1 -o count  | sort -k2,2nr
