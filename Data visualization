@@ -65,3 +65,7 @@ plotProfile -m Matrix --averageType median -o matrixmedian.pdf
 conda activate bedtools-env
 bedtools groupby -i input.bed -g 4 -c 1 -o count | sort -k2,2nr
 bedtools groupby -i Annotated_Peaks.tabular -g 18 -c 1 -o count  | sort -k2,2nr
+
+#HOMER Motif Discovery and Analysis
+conda activate bedtools-env
+findMotifsGenome.pl unique_genes.bed  mm10 MotifOutputDirectoryUnique/ -size given 
